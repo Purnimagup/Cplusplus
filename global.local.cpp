@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int global=9;
+int global=9; //global variable
 void sum()
 {
     cout<<global<<endl;
@@ -9,7 +9,7 @@ void sum()
 
 int main()
 {
-    int global=0;
+    int global=0; //locall
     global=72;
     sum();
     cout<<global;
